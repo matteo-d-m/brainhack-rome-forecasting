@@ -40,7 +40,7 @@ conda env create -f eeg-forecasting-env.yml
 If you don't meet all the conditions in Case 1, head over to [Google Colab](https://colab.research.google.com/), create a new notebook, and type:
 
 ```
-put imports here
+<TODO: put imports here>
 
-put mounting here
+<TODO: put mounting here>
 ```
