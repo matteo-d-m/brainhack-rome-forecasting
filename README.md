@@ -21,26 +21,20 @@ The entire dataset is quite heavy, so downloading it takes time. Moreover, your 
 
 ## Set-up 
 
-### Case 1: Local Set-Up
+### Case 1 (easier): Remote Set-Up
+If you don't meet all the conditions in Case 1, just open file `eeg-forecasting-notebook.ipynb` from this repository and press the `Open in Colab` button. You will be sent to [Google Colab](https://colab.research.google.com/) (Google's free cloud computing platform), and your code will run on Google's servers.
+
+### Case 2 (harder): Local Set-Up
 If you:
 1. Have a powerful laptop with a [CUDA-enabled GPU](https://en.wikipedia.org/wiki/CUDA) (you can check [here](https://developer.nvidia.com/cuda-gpus))
 2. Have a functioning installation of the [CUDA toolkit](https://developer.nvidia.com/cuda-toolkit)
 2. Have a [Miniconda or Anaconda](https://www.anaconda.com/docs/getting-started/getting-started) installation
 3. Have a [git](https://git-scm.com/downloads) installation
-4. Are used to working locally with Python and compute-intensive applications
+4. Are used to working locally with Python and compute-intensive applications that run on a CUDA-enabled GPU
 
 Then you can simply open a terminal, navigate to a directory of your choice and run: 
 
 ```
 git clone https://github.com/matteo-d-m/brainhack-rome-forecasting.git
 conda env create -f eeg-forecasting-env.yml
-```
-
-### Case 2: Remote Set-Up
-If you don't meet all the conditions in Case 1, head over to [Google Colab](https://colab.research.google.com/), create a new notebook, and type:
-
-```
-<TODO: put imports here>
-
-<TODO: put mounting here>
 ```
