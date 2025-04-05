@@ -223,4 +223,3 @@ dependencies:
       - torchaudio==2.6.0+cu118
       - torchvision==0.21.0+cu118
       - triton==3.2.0
-prefix: /home/matteo/anaconda3/envs/eeg-forecasting
