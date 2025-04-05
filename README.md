@@ -22,7 +22,15 @@ The entire dataset is quite heavy, so downloading it takes time. Moreover, your 
 ## Set-up 
 
 ### Case 1 (easier): Remote Set-Up
-Open file `eeg-forecasting-notebook.ipynb` from this repository and press the `Open in Colab` button. You will be sent to [Google Colab](https://colab.research.google.com/) (Google's free cloud computing platform), and your code will run on Google's servers.
+Open file `eeg-forecasting-notebook.ipynb` from this repository and press the `Open in Colab` button. You will be sent to [Google Colab](https://colab.research.google.com/) (Google's free cloud computing platform), where your code can run on Google servers. 
+
+Once in Colab, if you want your work to be saved to your Google Drive you must click on the `Copy to Drive` button, as shown below:
+
+<p align="center">
+  <img src="./files/copy-to-drive.jpg" />
+</p>
+
+If you don't do so, your changes will get lost once you close the notebook.
 
 ### Case 2 (harder): Local Set-Up
 If you:
