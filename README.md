@@ -27,7 +27,7 @@ Open file `eeg-forecasting-notebook.ipynb` from this repository and press the `O
 Once in Colab, if you want your work to be saved to your Google Drive you must click on the `Copy to Drive` button, as shown below:
 
 <p align="center">
-  <img src="./files/copy-to-drive.jpg" />
+  <img src="https://github.com/matteo-d-m/brainhack-rome-forecasting/blob/main/files/copy-to-drive.png" />
 </p>
 
 If you don't do so, your changes will get lost once you close the notebook.
