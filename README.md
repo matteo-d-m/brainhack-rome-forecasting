@@ -14,9 +14,9 @@ Reliable EEG forecasting is required to predict the occurrence of pathological e
 
 ## Dataset
 
-We will work on a version of the WAY-EEG-GAL dataset ([Luciw et al., 2014](https://www.nature.com/articles/sdata201447)), which contains multi-channel EEG signals recorded during thousands of grasp-and-lift trials. [Anna](https://github.com/annanotaro) and her colleagues at Bocconi University have optimised the dataset for use with machine learning. We will work on this optimised dataset, which is publicly available via a Gin repository at [this]() link. 
+We will work on a version of the WAY-EEG-GAL dataset ([Luciw et al., 2014](https://www.nature.com/articles/sdata201447)), which contains multi-channel EEG signals recorded during thousands of grasp-and-lift trials. 
 
-The entire dataset is quite heavy, so downloading it takes time. Moreover, your laptop is probably not powerful enough to run deep learning algorithms on it. Therefore, we have prepared a reduced version of the dataset that we have stored on Google Drive at [this]() link. We have chosen Drive so you could mount the folder on [Google Colab](https://colab.research.google.com/) and avoid storing any data or running any program on your laptop.
+[Anna](https://github.com/annanotaro) and her colleagues at Bocconi University have optimised the dataset for use with machine learning. The entire dataset is quite heavy, so downloading it takes time. Moreover, your laptop is probably not powerful enough to run deep learning algorithms on it. Therefore, we have prepared a reduced version of the dataset, which we have stored on Google Drive at [this]() link. We have chosen Drive so you could mount the folder on [Google Colab](https://colab.research.google.com/) and avoid storing any data or running any program on your laptop.
 
 
 ## Set-up 
